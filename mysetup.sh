@@ -38,10 +38,10 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 
 # Pixi
-git clone git@github.com:pixijs/pixi.js.git
+git clone https://github.com/pixijs/pixi.js
 
 # Heroku
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-heroku login
-ssh-keygen -t rsa
-heroku keys:add
+#heroku login
+#ssh-keygen -t rsa
+#heroku keys:add
