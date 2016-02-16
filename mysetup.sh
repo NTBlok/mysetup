@@ -8,7 +8,7 @@
 
 
 # Git
-sudo apt-get install -y git-core
+#sudo apt-get install -y git-core
 
 # Tree
 sudo apt-get install tree
