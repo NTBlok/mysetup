@@ -10,10 +10,18 @@
 # Git
 #sudo apt-get install -y git-core
 
+# Pip
+sudo apt-get install python-pip
+# Virtualenv
+sudo apt-get install python-virtualenv
+# Awsebcli
+sudo pip install awsebcli
+
 # Tree
 sudo apt-get install tree
 
 # Vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vi
 echo "execute pathogen#infect()" >> ~/.vimrc
