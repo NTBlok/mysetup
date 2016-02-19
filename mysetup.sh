@@ -9,6 +9,8 @@
 
 # Git
 #sudo apt-get install -y git-core
+# Curl
+#sudo apt-get install -y curl
 
 # Pip
 sudo apt-get install python-pip
@@ -49,11 +51,11 @@ git clone git://github.com/aperezdc/vim-template.git
 mkdir ~/myproject
 cd ~/myproject
 
-# Node
-curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
-sudo apt-get update
-sudo apt-get install -y nodejs
-sudo apt-get install -y build-essential
+# NVM & Node
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+source $HOME/.nvm/nvm.sh
+nvm install 5.0
+nvm use 5.0
 
 # Pixi
 git clone https://github.com/pixijs/pixi.js
