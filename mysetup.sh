@@ -7,10 +7,8 @@
 #
 
 
-# Git
-#sudo apt-get install -y git-core
 # Curl
-#sudo apt-get install -y curl
+sudo apt-get install -y curl
 
 # Pip
 sudo apt-get install python-pip
