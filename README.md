@@ -7,5 +7,5 @@
  
 Run npm init from myproject directory
 
-    cd ../myproject
+    cd ./myproject
     npm init
