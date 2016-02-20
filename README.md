@@ -4,3 +4,7 @@
     sudo apt-get install -y git-core
     git clone https://github.com/NTBlok/mysetup.git
     ./mysetup/mysetup.sh
+ 
+Run npm init from myproject directory
+    cd ../myproject
+    npm init
