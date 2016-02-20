@@ -52,8 +52,8 @@ cd ~/myproject
 # NVM & Node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 ../.nvm/nvm.sh
-nvm install v5.6.0
-nvm use 5.6.0
+nvm install v0.10.36
+nvm use 0.10.36
 
 # Pixi
 git clone https://github.com/pixijs/pixi.js
