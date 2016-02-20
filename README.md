@@ -6,5 +6,6 @@
     ./mysetup/mysetup.sh
  
 Run npm init from myproject directory
+
     cd ../myproject
     npm init
