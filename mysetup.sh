@@ -45,16 +45,11 @@ sudo pip install --user jedi
 git clone https://github.com/davidhalter/jedi-vim.git
 git clone git://github.com/aperezdc/vim-template.git
 
-# Project folder
-mkdir ~/myproject
-cd ~/myproject
 
 # NVM & Node
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
-../.nvm/nvm.sh
-nvm install v0.10.36
-nvm use 0.10.36
-npm install
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo apt-get install -y build-essential
 
 # Pixi
 git clone https://github.com/pixijs/pixi.js
