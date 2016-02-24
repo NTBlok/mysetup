@@ -1,11 +1,7 @@
 #! /bin/sh
-#
-# mysetup.sh
-# Copyright (C) 2016 ubuntu <ubuntu@ip-172-31-20-177>
-#
-# Distributed under terms of the MIT license.
-#
 
+
+sudo apt-get update
 
 # Curl
 sudo apt-get install -y curl
