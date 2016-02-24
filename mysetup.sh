@@ -55,3 +55,9 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 #heroku login
 #ssh-keygen -t rsa
 #heroku keys:add
+
+git clone https://github.com/startup-class/dotfiles.git
+ln -sb dotfiles/.screenrc .
+ln -sb dotfiles/.bash_profile .
+ln -sb dotfiles/.bashrc .
+ln -sb dotfiles/.bashrc_custom .
