@@ -43,7 +43,7 @@ sudo apt-get install exuberant-ctags
 git clone git://github.com/majutsushi/tagbar
 sudo pip install --user jedi
 git clone https://github.com/davidhalter/jedi-vim.git
-git clone git://github.com/aperezdc/vim-template.git
+#git clone git://github.com/aperezdc/vim-template.git
 
 
 # NVM & Node
